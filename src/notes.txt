@@ -1,0 +1,9 @@
+react hooks must be called in the component function 
+not outside that
+not inside any nested function 
+use keyword se start hoti hai hooks most important hook hai hamari useState
+and jitne bhi functions hai vo hamare on se start hote hai
+// useState returns an array where the first value is the value itself and the second value is the updating function.
+we can use array destructuring to store this.
+ex: 
+const [title,setTitle]=useState(props.title);
